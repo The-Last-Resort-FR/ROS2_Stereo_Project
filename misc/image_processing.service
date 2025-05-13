@@ -1,0 +1,20 @@
+[Unit]
+
+Description=Processes the images from camera_manager
+Requires=camera_manager.service
+StartLimitIntervalSec=0
+
+
+[Service]
+
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/opt/stereo-project
+ExecStartPre=source /opt/ros/humble/setup.bash && source install/setup.sh
+ExecStart=ros2 run image_processor image_processor 
+
+
+[Install]
+WantedBy=multi-user.target

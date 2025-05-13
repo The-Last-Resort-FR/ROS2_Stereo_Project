@@ -1,0 +1,21 @@
+[Unit]
+
+Description=Camera Manager service that manage and publish images from the cameras
+Requires=stm_comm.service
+StartLimitIntervalSec=0
+
+
+[Service]
+
+Type=simple
+Restart=always
+RestartSec=1
+User=gpa2m
+WorkingDirectory=/opt/stereo-project
+ExecStartPre=source /opt/ros/humble/setup.bash && source install/setup.sh
+ExecStart=ros2 launch camera_manager launch.py
+
+
+[Install]
+
+WantedBy=multi-user.target

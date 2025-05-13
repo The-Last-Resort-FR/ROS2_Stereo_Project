@@ -1,0 +1,7 @@
+log
+build
+install
+persist.json
+stm_comm.log
+image_processor.log
+camera_manager.log
