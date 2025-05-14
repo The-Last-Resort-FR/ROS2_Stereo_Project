@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source install/setup.sh
 
+sudo apt update
+sudo apt install libserial-dev #libopencv
