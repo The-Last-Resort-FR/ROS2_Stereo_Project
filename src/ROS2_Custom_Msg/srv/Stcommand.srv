@@ -1,5 +1,0 @@
-uint8 type
-uint16 command
-uint16 arg
----
-uint8[9] response

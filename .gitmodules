@@ -1,15 +1,3 @@
-[submodule "ROS2_LUCID_Triton_camera_driver"]
+[submodule "src/ROS2_LUCID_Triton_camera_driver"]
 	path = src/ROS2_LUCID_Triton_camera_driver
-	url = https://github.com/The-Last-Resort-FR/ROS2_LUCID_Triton_camera_driver.git
-[submodule "ROS2_Image_Processing"]
-	path = src/ROS2_Image_Processing
-	url = https://github.com/The-Last-Resort-FR/ROS2_Image_Processing.git
-[submodule "ROS2_STM32_Comm"]
-	path = src/ROS2_STM32_Comm
-	url = https://github.com/The-Last-Resort-FR/ROS2_STM32_Comm.git
-[submodule "ROS2_Custom_Msg"]
-	path = src/ROS2_Custom_Msg
-	url = https://github.com/The-Last-Resort-FR/ROS2_Custom_Msg.git
-[submodule "ROS2_Command_Tester"]
-	path = src/ROS2_Command_Tester
-	url = https://github.com/The-Last-Resort-FR/ROS2_Command_Tester.git
+	url = https://github.com/The-Last-Resort-FR/ROS2_LUCID_Triton_camera_driver
