@@ -2,6 +2,15 @@
 
 This repository is the main one for the stereo-vision project, it includes several other repositories and the files to set up the entire project
 
+## Project Architecture
+Nodes are ellipse, squares are topics and messages, unspecified arrows are ros communications, hexagones are hardware  
+
+![diagArch.png](image/diagArch.png)
+
+## STM32 Nucleo Case
+
+The 2 part case files are in nucleo_case
+
 ## Dependencies
 
 - [ROS2 Humble](https://docs.ros.org/en/humble/index.html)
