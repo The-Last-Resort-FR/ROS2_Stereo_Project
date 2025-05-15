@@ -30,6 +30,11 @@ Libserial will be installed by setup.sh
 
 ## Install
 
+Clone the repository :  
+```bash
+git clone https://github.com/The-Last-Resort-FR/ROS2_Stereo_Project.git --recurse
+```
+
 Run the setup :  
 ```bash
 sudo ./misc/setup.sh
